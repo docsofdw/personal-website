@@ -1,31 +1,66 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Page title</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="vista-assets/fonts/fonts.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/tailwind/tailwind.min.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="shuffle-for-tailwind.png"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js"
-      defer
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.3/cdn.min.js" defer></script>
-  </head>
-  <body class="antialiased bg-body text-body font-body">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>a portfolio - docofdw</title>
+    <meta name="description" content="Professional portfolio of [Your Name], showcasing web development projects and skills">
+    <meta name="keywords" content="web developer, front-end engineer, designer, projects">
+    <meta name="author" content="Duke">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourwebsite.com/">
+    <meta property="twitter:title" content="Your Name - Web Developer Portfolio">
+    <meta property="twitter:description" content="Professional portfolio showcasing web development projects and skills">
+    <meta property="twitter:image" content="https://yourwebsite.com/path-to-image.jpg">
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="vista-assets/fonts/fonts.css" as="style">
+    <link rel="preload" href="css/tailwind/tailwind.min.css" as="style">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="vista-assets/fonts/fonts.css">
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="shuffle-for-tailwind.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer></script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "HomePage",
+      "name": "Your Name",
+      "url": "https://yourwebsite.com",
+      "image": "https://yourwebsite.com/your-photo.jpg",
+      "sameAs": [
+        "https://www.linkedin.com/in/yourprofile/",
+        "https://github.com/yourusername"
+      ],
+      "jobTitle": "Web Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Your Company"
+      }
+    }
+    </script>
+</head>
+<body class="antialiased bg-body text-body font-body">
     <div class="">
-      <div>
-        <div class="bg-[#0a192f] min-h-screen flex flex-col">
+        <div>
+            <div class="bg-[#0a192f] min-h-screen flex flex-col">
           <!-- Navbar -->
           <nav
             class="py-4 px-6 w-full fixed top-0 z-50 bg-[#0a192f] bg-opacity-90 backdrop-filter backdrop-blur-sm"
